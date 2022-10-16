@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+    /* background: url('abbaaGadaa.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+  
+}
+.header{
+    font-size: 26px;
+    font-weight: 700;
+    color:aqua;
+    margin-top:100px;
+    background-color:black;
+    padding:10px 20px;
+    border:10px solid rgb(184, 57, 57);
+    border-radius: 25px;
+}
+
+.InOromic,.InEnglish{
+    padding:10px 5px;
+    width: 300px;
+    height:50px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    margin-top:40px;
+    border:10px solid rgb(184, 57, 57);
+    border-radius: 25px;
+}
+#new-Proverb{
+    margin-top:30px;
+    color:white;
+    background-color: black;
+    border:1px solid red;
+    cursor: pointer;
+    padding:10px 15px;
+    border:10px solid rgb(184, 57, 57);
+    border-radius: 25px;
+}
